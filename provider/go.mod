@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/provider
+module github.com/0xe282b0/pulumi-netfoundry/provider
 
 go 1.18
 

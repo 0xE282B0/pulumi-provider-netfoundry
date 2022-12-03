@@ -1,5 +1,5 @@
-import * as xyz from "@pulumi/xyz";
+import * as netfoundry from "@pulumi/netfoundry";
 
-const random = new xyz.Random("my-random", { length: 24 });
+const random = new netfoundry.Random("my-random", { length: 24 });
 
 export const output = random.result;

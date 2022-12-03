@@ -11,11 +11,11 @@ _utilities.register(
     resource_modules="""
 [
  {
-  "pkg": "xyz",
+  "pkg": "netfoundry",
   "mod": "index",
-  "fqn": "pulumi_xyz",
+  "fqn": "pulumi_netfoundry",
   "classes": {
-   "xyz:index:Random": "Random"
+   "netfoundry:index:Random": "Random"
   }
  }
 ]
@@ -23,9 +23,9 @@ _utilities.register(
     resource_packages="""
 [
  {
-  "pkg": "xyz",
-  "token": "pulumi:providers:xyz",
-  "fqn": "pulumi_xyz",
+  "pkg": "netfoundry",
+  "token": "pulumi:providers:netfoundry",
+  "fqn": "pulumi_netfoundry",
   "class": "Provider"
  }
 ]
